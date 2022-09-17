@@ -45,7 +45,7 @@ class Setup {
 //   cards[randomGeneratedIndex] = tempSavedItem;
 ```
 3. The dealing of cards can also be change to deal cards 1 at a time instead of splitting the deck.
-4. ```js
+```js
 let shuffledDeck = cards
 let player1Deck = []
 let player2Deck = []
