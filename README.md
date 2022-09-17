@@ -1,13 +1,13 @@
 # Game-of-War
 Computer vs Computer Game-of-War played in the console using Javascript.
 
-##Features
+#Features
 1. Can change the amount of times the cards are shuffle. Default is set to 100.
 2. Detail logs of what is happening from the card drawn, remaining cards in each player's hand and more!
 3. Account for the different edge cases when "War" occures. Such as when 1 player doesn't have enough cards for "War" and another round.
 4. Bonus optional Code to use below!
 
-###Optional Code
+#Optional Code
 1. Since suits doesn't matter you can change out the "setup" class and "Card" class for below;
 ```js
 class Setup {
