@@ -38,11 +38,11 @@ class Setup {
 2. Or the fisher yate method below instead of the shuffler() in the code. But I like the "shuffler( because uses 2 random indexs for true randomizing!
 ```js
 // i = cards.length - 1 or i = 51(because 0 is counted). This shuffle every card with a new unique position by 1
-// for (i = cards.length - 1; i > 0; i--) {
-//   let randomGeneratedIndex = Math.floor(Math.random() * i)
-//   let tempSavedItem = cards[i];
-//   cards[i] = cards[randomGeneratedIndex];
-//   cards[randomGeneratedIndex] = tempSavedItem;
+for (i = cards.length - 1; i > 0; i--) {
+  let randomGeneratedIndex = Math.floor(Math.random() * i)
+  let tempSavedItem = cards[i];
+  cards[i] = cards[randomGeneratedIndex];
+  cards[randomGeneratedIndex] = tempSavedItem;
 ```
 3. The dealing of cards can also be change to deal cards 1 at a time instead of splitting the deck.
 ```js
