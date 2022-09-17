@@ -35,7 +35,7 @@ class Setup {
   }
 }
 ```
-2. or the fisher yate randomizer instead of the shuffler() which use 2 random index for true randomizing!
+2. Or the fisher yate method below instead of the shuffler() in the code. But I like the "shuffler( because uses 2 random indexs for true randomizing!
 ```js
 // i = cards.length - 1 or i = 51(because 0 is counted). This shuffle every card with a new unique position by 1
 // for (i = cards.length - 1; i > 0; i--) {
