@@ -1,0 +1,26 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/1567666.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: monospace;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+#Results {
+  color: azure;
+}
+
+p {
+  color: rgb(10, 249, 241);
+  font-size: 20px;
+}
+
+button {
+  background-color: gold;
+  color: red;
+}
