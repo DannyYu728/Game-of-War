@@ -36,3 +36,10 @@ class Setup {
     }
   }
 }
+//below is a quick function to split the newly shuffle deck to both players.
+function splitDeck() {
+  let shuffledDeck = new Setup()
+  player1Deck = shuffledDeck.deck.splice(0, 26)
+  player2Deck = shuffledDeck.deck
+}
+splitDeck()
