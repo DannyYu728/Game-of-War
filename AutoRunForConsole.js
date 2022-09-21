@@ -32,8 +32,8 @@ class Setup {
   //this shuffles the cards. change the value of i to change the number of times you want it to shuffle. *fully random*
   shuffler() {
     for (let i = 60; i > 0; i--) {
-      let randomGeneratedIndex = Math.floor(Math.random() * 52);
-      let randomGeneratedIndex2 = Math.floor(Math.random() * 52);
+      let randomGeneratedIndex = Math.floor(Math.random() * 51);
+      let randomGeneratedIndex2 = Math.floor(Math.random() * 51);
       let tempSavedItem = this.deck[randomGeneratedIndex];
       this.deck[randomGeneratedIndex] = this.deck[randomGeneratedIndex2];
       this.deck[randomGeneratedIndex2] = tempSavedItem;
