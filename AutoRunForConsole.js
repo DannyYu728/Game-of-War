@@ -22,6 +22,7 @@ class Setup {
   values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
   points = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
   //this assign each value of the 3 array above to the correct keys in the card class for each card.
+  // instead of using points array and this.points[j], we can use j + 2 because 0 + 2 = 2 points and ++.
   createDeck() {
     for (let i = 0; i < this.suits.length; i++) {
       for (let j = 0; j < this.values.length; j++) {
